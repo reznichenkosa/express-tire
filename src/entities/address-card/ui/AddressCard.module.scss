@@ -1,0 +1,30 @@
+.wrapper {
+  padding: 14px;
+  background-color: var(--box-bg-color);
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+
+  &:hover {
+    background-color: rgb(83, 83, 83);
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+
+    .address {
+      font-size: 18px;
+    }
+
+    .badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+    }
+  }
+}
+
+.active {
+  background-color: rgb(83, 83, 83);
+}
